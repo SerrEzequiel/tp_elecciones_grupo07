@@ -153,8 +153,8 @@ g_regresion <- ggplot(datos_grafico, aes(jxc_2019, lla_2023)) +
            label = paste0("Pendiente: ", coma(b1$coeficiente),
                           " (IC 95%: ", coma(b1$ic_inferior), " a ", coma(b1$ic_superior), ")\n",
                           "p = ", coma3(b1$p_valor), " · R² = ", coma(b1$r2), " · n = 24")) +
-  scale_colour_manual(values = colores_grupo, name = "Grupo (clustering)") +
-  scale_shape_manual(values = c(17, 16, 15), name = "Grupo (clustering)") +
+  scale_colour_manual(values = colores_grupo, name = "Grupo") +
+  scale_shape_manual(values = c(17, 16, 15), name = "Grupo") +
   scale_x_continuous(labels = label_percent(scale = 1)) +
   scale_y_continuous(labels = label_percent(scale = 1)) +
   labs(

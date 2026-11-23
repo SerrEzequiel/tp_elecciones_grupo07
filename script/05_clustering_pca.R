@@ -204,9 +204,9 @@ g_exploratorio <- ggplot() +
                   bg.color = "white", bg.r = 0.15, box.padding = 0.35,
                   point.padding = 0.15, min.segment.length = 0,
                   max.overlaps = Inf, seed = 2) +
-  scale_colour_manual(values = colores_grupo, name = "Grupo (k-means, k = 3)") +
+  scale_colour_manual(values = colores_grupo, name = "Grupo") +
   scale_fill_manual(values = colores_grupo, guide = "none") +
-  scale_shape_manual(values = formas_grupo, name = "Grupo (k-means, k = 3)") +
+  scale_shape_manual(values = formas_grupo, name = "Grupo") +
   scale_linetype_manual(values = c("2019" = "dashed", "2023" = "solid"),
                         name = "Variables (% de votos)") +
   scale_x_continuous(labels = label_number(decimal.mark = ",")) +
@@ -216,7 +216,7 @@ g_exploratorio <- ggplot() +
     subtitle = paste0(
       "Componentes principales y clusters k-means sobre 10 variables estandarizadas: ",
       "% de votos de 5 espacios en 2019 y 2023.\n",
-      "Cada punto es una provincia (n = 24). Las flechas muestran hacia dónde crece cada variable."
+      "Cada punto es una provincia. Las flechas muestran hacia dónde crece cada variable."
     ),
     x = paste0("Componente principal 1 (", coma(var_exp[1]), "% de la varianza)"),
     y = paste0("Componente principal 2 (", coma(var_exp[2]), "% de la varianza)"),

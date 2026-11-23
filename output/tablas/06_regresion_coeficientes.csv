@@ -1,0 +1,9 @@
+modelo,termino,coeficiente,error_robusto,t,p_valor,ic_inferior,ic_superior,r2,r2_ajustado,n
+Modelo 1,(Intercept),31.053,5.925,5.241,0,18.765,43.341,0.01,-0.035,24
+Modelo 1,jxc_2019,0.063,0.164,0.387,0.702,-0.276,0.403,0.01,-0.035,24
+Modelo 2,(Intercept),30.123,8.197,3.675,0.002,13.025,47.222,0.062,-0.079,24
+Modelo 2,jxc_2019,0.087,0.196,0.445,0.661,-0.322,0.497,0.062,-0.079,24
+Modelo 2,grupoMayor caída del peronismo,2.378,3.005,0.791,0.438,-3.89,8.646,0.062,-0.079,24
+Modelo 2,grupoPeronismo persistente,-1.4,3.194,-0.438,0.666,-8.062,5.262,0.062,-0.079,24
+Modelo 1 sin provincias influyentes,(Intercept),31.177,3.997,7.801,0,22.84,39.514,0.023,-0.026,22
+Modelo 1 sin provincias influyentes,jxc_2019,0.089,0.11,0.807,0.429,-0.141,0.318,0.023,-0.026,22

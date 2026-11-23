@@ -82,6 +82,7 @@ tp_elecciones/
 | `03_faltantes_outliers.R` | Diagnóstico de faltantes, outliers por z-score (\|z\| > 2,5), decisión y descriptivas con y sin atípicos | `raw/`, `input/` | `output/tablas/03_*.csv`, `output/graficos/03_outliers_zscore.jpg`, `input/provincias_matriz.csv`, `input/provincias_atipicas.csv` |
 | `04_chi_cuadrado_departamentos.R` | *(pendiente)* Test Chi cuadrado ganador 2019 × ganador 2023 por departamento | | |
 | `05_clustering_pca.R` | Elección de k (codo y silueta), k-means con k = 3, robustez (Ward y sin atípicos) y PCA. Genera el gráfico exploratorio de la instancia 3 | `input/provincias_matriz.csv`, `input/provincias_atipicas.csv` | `output/tablas/05_*.csv`, `output/graficos/05_*.jpg`, `input/provincias_grupos.csv` |
+| `07_grafico_comunicativo.R` | Gráfico comunicativo (instancia 3, corregido): si el espacio que ganó cada provincia en 2019 la retuvo en 2023, con el % de votos en ambos años | `input/provincias_espacios.csv` | `output/tablas/07_retencion_provincias.csv`, `output/graficos/07_comunicativo_retencion.jpg` |
 
 Los scripts `00a` y `00b` no hace falta correrlos: sus resultados ya están en `raw/`.
 
@@ -92,9 +93,9 @@ Los scripts `00a` y `00b` no hace falta correrlos: sus resultados ya están en `
 | `limpiar_nombre_lista.R` | `limpiar_nombre_lista()` | Unifica cómo está escrito el nombre de cada lista | 01 |
 | `nombre_variable.R` | `nombre_variable()` | Arma el nombre interno de una variable (`tercera_via_2019`) | 03 |
 | `etiqueta_variable.R` | `etiqueta_variable()` | Traduce el nombre interno al texto de los gráficos (`Tercera vía 2019`) | 03, 05 |
-| `tema_tp.R` | `tema_tp()` | Tema de ggplot común a todos los gráficos | 02, 03, 05 |
-| `fuente_tp.R` | `fuente_tp()` | Nota de fuente al pie de todos los gráficos | 02, 03, 05 |
-| `guardar_grafico.R` | `guardar_grafico()` | Exporta con `ggsave()` a JPG, 300 dpi, 22 cm de ancho | 02, 03, 05 |
+| `tema_tp.R` | `tema_tp()` | Tema de ggplot común a todos los gráficos | 02, 03, 05, 07 |
+| `fuente_tp.R` | `fuente_tp()` | Nota de fuente al pie de todos los gráficos | 02, 03, 05, 07 |
+| `guardar_grafico.R` | `guardar_grafico()` | Exporta con `ggsave()` a JPG, 300 dpi, 22 cm de ancho | 02, 03, 05, 07 |
 
 ## Análisis realizado
 

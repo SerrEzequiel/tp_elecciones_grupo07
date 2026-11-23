@@ -1,0 +1,25 @@
+provincia,ganador_2019,ganador_2023,retuvo,pct_2019,pct_2023
+Santiago del Estero,Peronismo,Peronismo,TRUE,75,65.5
+Formosa,Peronismo,Peronismo,TRUE,65.2,52.3
+Tucumán,Peronismo,Peronismo,TRUE,57.8,45
+Chaco,Peronismo,Peronismo,TRUE,55.7,43.7
+Buenos Aires,Peronismo,Peronismo,TRUE,52.2,42.9
+Catamarca,Peronismo,Peronismo,TRUE,56.7,42.8
+La Rioja,Peronismo,Peronismo,TRUE,47.4,41.1
+Tierra del Fuego,Peronismo,Peronismo,TRUE,56.9,38.2
+Santa Cruz,Peronismo,Peronismo,TRUE,59.8,37.9
+Río Negro,Peronismo,Peronismo,TRUE,57.2,37.9
+Corrientes,Peronismo,Peronismo,TRUE,51.2,37.2
+La Pampa,Peronismo,Peronismo,TRUE,50.1,34.8
+Misiones,Peronismo,Derecha liberal,FALSE,57.7,37.9
+Salta,Peronismo,Derecha liberal,FALSE,48.8,37.6
+San Juan,Peronismo,Derecha liberal,FALSE,53,33.2
+Jujuy,Peronismo,Derecha liberal,FALSE,46.2,32.3
+Chubut,Peronismo,Derecha liberal,FALSE,52.4,32.3
+Neuquén,Peronismo,Derecha liberal,FALSE,47.8,31.8
+CABA,JxC,JxC,TRUE,52.6,41.2
+Entre Ríos,JxC,Peronismo,FALSE,44.5,30.1
+Santa Fe,JxC,Derecha liberal,FALSE,43.5,26.9
+Mendoza,JxC,Derecha liberal,FALSE,50.1,25.9
+Córdoba,JxC,Derecha liberal,FALSE,61.3,22.6
+San Luis,JxC,Derecha liberal,FALSE,45,21
